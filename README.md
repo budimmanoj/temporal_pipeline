@@ -1,4 +1,4 @@
-# News Temporal Extraction + Summarization  (Arch 2)
+# News Temporal Extraction + Summarization 
 
 A modular, rule-first pipeline for extracting and normalizing temporal expressions from news text. Every entity passes through a deterministic rule engine before any LLM call is made. The LLM only performs coreference resolution and date arithmetic on **verified** anchor dates — it never guesses.
 
@@ -205,3 +205,6 @@ Each entity dict contains:
 
 ### `llm.llm_summarize`
 - `summarize(paragraph, sentences, normalized_entities, llm_model)` → `{"summary": str, "timeline": list}`
+
+### model link 
+- you can find the model tempeval3_ner_final.pt in hugging face : https://huggingface.co/ManojBudim/temporal_extraction
