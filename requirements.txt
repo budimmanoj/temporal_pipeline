@@ -1,0 +1,10 @@
+# Core ML / NLP
+torch>=2.0.0
+transformers>=4.36.0
+torchcrf>=1.1.0
+
+# Date arithmetic
+python-dateutil>=2.8.2
+
+# LLM backend (local inference) — optional but required for LLM stages
+ollama>=0.1.8
